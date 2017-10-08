@@ -127,7 +127,7 @@ var scene = new ScrollMagic.Scene({
 		triggerElement: ".home-intro__bottom-line"
 	})
 	.setTween(homeIntroInfo_tl) // trigger a TweenMax.to tween
-	.addIndicators()
+	// .addIndicators()
 	.addTo(controller);
 
 
@@ -135,7 +135,7 @@ var scene = new ScrollMagic.Scene({
 		triggerElement: ".home .case-study__subhead"
 	})
 	.setTween(TweenMax.fromTo("body.home", 1, {backgroundColor: "#41463D"}, {backgroundColor: "#fff"})) // trigger a TweenMax.to tween
-	.addIndicators()
+	// .addIndicators()
 	.addTo(controller);
 
 
@@ -180,7 +180,7 @@ var scene = new ScrollMagic.Scene({
 		triggerElement: ".chapter-guide-header"
 	})
 	.setTween(chapterHeader_tl) // trigger a TweenMax.to tween
-	.addIndicators()
+	// .addIndicators()
 	.addTo(controller);
 
 
@@ -274,7 +274,7 @@ var scene = new ScrollMagic.Scene({
 		triggerElement: ".footer"
 	})
 	.setTween(footer_tl) // trigger a TweenMax.to tween
-	.addIndicators()
+	// .addIndicators()
 	.addTo(controller);
 
 
