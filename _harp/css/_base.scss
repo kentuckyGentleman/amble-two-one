@@ -1,0 +1,171 @@
+html,
+body{
+	height: 100%;
+}
+
+// Typography //////////////////////////////////////////
+
+@font-face { font-family: gtAmerBlack; src: url('../fonts/GT-America-Black.otf'); }
+@font-face { font-family: gtAmerBold; src: url('../fonts/GT-America-Bold.otf'); }
+@font-face { font-family: gtAmerReg; src: url('../fonts/GT-America-Regular.otf'); }
+@font-face { font-family: gtAmerBoldExt; src: url('../fonts/GT-America-Expanded-Bold.otf'); }
+@font-face { font-family: gtAmerRegExt; src: url('../fonts/GT-America-Expanded-Regular.otf'); }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+a{
+	color: $black;
+}
+
+h1,
+h2,
+h5,
+h6{
+	font-family: 'gtAmerBlack';
+}
+
+h1{
+	font-size: 48px;
+	line-height: 1.15;
+}
+
+h2{
+	font-size: 36px;
+	line-height: 1.25;
+}
+
+h3{
+	font-family: 'gtAmerReg';
+	font-size: 22px;
+	line-height: 1.45;
+}
+
+h4{
+	font-family: 'gtAmerRegExt';
+	font-size: 12px;
+	text-transform: uppercase;
+	line-height: 1.35;
+	letter-spacing: 1px;
+}
+
+h5{
+	font-size: 20px;
+	line-height: 1.25;
+}
+
+h6{
+	font-size: 18px;
+}
+
+p{
+	font-family: 'gtAmerReg', sans-serif;
+	font-size: 18px;
+	line-height: 1.5;
+	max-width: 645px;
+}
+
+
+// Buttons & Links ////////////////////////////////
+
+a{
+	text-decoration: none;
+	border-bottom: 0;
+}
+
+.link,
+.contents-link{
+	background-image: linear-gradient(to right, $link-CTA 100%, transparent 100%);
+  	background-position: 0 1.04em;
+  	background-repeat: repeat-x;
+  	background-size: 8px 4px;
+}
+
+.link{
+	font-family: 'gtAmerReg';
+	font-size: 18px;
+}
+
+.cta-main{
+	font-family: 'gtAmerBoldExt';
+	text-transform: uppercase;
+	font-size: 12px;
+	color: $link-CTA;
+	display: inline-block;
+	background-image: linear-gradient(to right, $link-CTA 100%, transparent 100%);
+  	background-position: 0 1.15em;
+  	background-repeat: repeat-x;
+  	background-size: 8px 8px;
+}
+
+
+.citation{
+	background-image: linear-gradient(to right, $green 100%, transparent 100%);
+  	background-position: 0 1.04em;
+  	background-repeat: repeat-x;
+  	background-size: 8px 4px;
+}
+
+
+// Amble Logo ////////////////////////////////////
+.logo{
+	height: 20px;
+}
+
+
+
+
+// Section Dividers //////////////////////////////
+.section-divider{
+	margin-bottom: $m-space-sm;
+
+	// &::before{
+	// 	display: inline-block;
+	// 	content:" ";
+	// 	width: 40px;
+	// 	height: 11px;
+	// 	background-color: $black;
+	// 	margin-right: 10px;
+	// }
+}
+
+.divider{
+	height: 14px;
+	width: 100%;
+	background-color: $black;
+	display: block;
+	transform-origin: left;
+
+	&--green{
+
+		@extend .divider;
+		background-color: $green;
+	}
+}
+
+.green{
+		@extend .divider;
+		background-color: $green;
+}
+
+// Media Queries /////////////////////////////////
+// @media (min-width:1024px){
+// 	h1{
+// 		font-size: 64px;
+// 	}
+
+// 	h2{
+// 		font-size: 48px;
+// 	}
+
+// 	h3{
+// 		font-size: 22px;
+// 	}
+
+// 	h4{
+// 		font-size: 15px;
+// 	}
+// }

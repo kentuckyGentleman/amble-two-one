@@ -1,0 +1,98 @@
+include ../_components_partials/head
+
+body
+	//Chapter Intro (full screen)
+	div.chapter-intro
+		div.container
+			div.chapter-intro__header
+				h4 #{chapter_name}
+
+			div.chapter-intro__img
+				img(src="#{chapter_image}")
+
+			div.chapter-intro__info
+				h3 #{description}
+
+			div.chapter-intro__contents--mobile
+				include ../_components_partials/contentsMobile
+
+	//Chapter
+	div.container.chapter__container
+
+		//Guide Header
+		div.chapter-guide-header
+			include ../_components_partials/headerLight
+
+		//Chapter Header
+		div.chapter-header
+			div.container--flex
+				div.chapter-header__headline
+					h4.chapter-header__subhead #{chapter_sub_head}
+					h1.chapter-header__title #{chapter_title}
+				|&nbsp	
+				div.chapter-header__contents
+					include ../_components_partials/contentsLight
+			div.divider
+
+		//Chapter Explanation
+		div.chapter-explanation
+			h4.section-divider.chapter-explanation__subhead the bottom line
+			div
+				h2.chapter-explanation__explanation__title #{chapter_bottom_line}
+				div.chapter-explanation__explanation
+					!= yield
+
+		//Chapter Facts
+		div.chapter-facts
+			h4.section-divider.chapter-facts__subhead don't take my word for it
+
+			div.chapter-facts__fact
+				div.chapter-facts__fact__source
+					p.chapter-facts__fact__citation #{chapter_fact1_author}
+					p.chapter-facts__fact__citation.title #{chapter_fact1_title}
+					a(href="#{chapter_fact1_pub_link}").citation.chapter-facts__fact__citation #{chapter_fact1_publication}
+					p.chapter-facts__fact__citation #{chapter_fact1_date}
+				|&nbsp
+				h2 #{chapter_fact1}
+			div.chapter-facts__fact
+				div.chapter-facts__fact__source
+					p.chapter-facts__fact__citation #{chapter_fact2_author}
+					p.chapter-facts__fact__citation.title #{chapter_fact2_title}
+					a(href="#{chapter_fact2_pub_link}").citation.chapter-facts__fact__citation #{chapter_fact2_publication}
+					p.chapter-facts__fact__citation #{chapter_fact2_date}
+				|&nbsp
+				h2 #{chapter_fact2}
+			div.chapter-facts__fact
+				div.chapter-facts__fact__source
+					p.chapter-facts__fact__citation #{chapter_fact3_author}
+					p.chapter-facts__fact__citation.title #{chapter_fact3_title}
+					a(href="#{chapter_fact3_pub_link}").citation.chapter-facts__fact__citation #{chapter_fact3_publication}
+					p.chapter-facts__fact__citation #{chapter_fact3_date}
+				|&nbsp
+				h2 #{chapter_fact3}
+			div.chapter-facts__fact
+				div.chapter-facts__fact__source
+					p.chapter-facts__fact__citation #{chapter_fact4_author}
+					p.chapter-facts__fact__citation.title #{chapter_fact4_title}
+					a(href="#{chapter_fact4_pub_link}").citation.chapter-facts__fact__citation #{chapter_fact4_publication}
+					p.chapter-facts__fact__citation #{chapter_fact4_date}
+				|&nbsp
+				h2 #{chapter_fact4}
+					
+
+		//Chapter Example
+		include ../_components_partials/case-study
+
+		//Contact CTA
+		include ../_components_partials/contact-module
+
+		//Footer
+		include ../_components_partials/footer
+
+		//Footnotes
+		div.footnotes-module
+			div
+				p.footnotes-module__footnotes #{chapter_footnotes}
+
+	include ../_components_partials/footer-script
+		

@@ -1,2 +1,56 @@
-h1 Welcome to Harp.
-h3 This is yours to own. Enjoy.
+include _components_partials/head
+
+body.home
+	div.home-intro
+		div.container
+			div.home-intro__header-container
+				img.home-intro__logo(src="img/logo/logo-green.svg")
+				h4.home-intro__top let's cut the bs guide
+			
+			div.home-intro__title-container
+				div.home-intro__title-container__inner
+					div.home-intro__eye
+						img.home-intro__eye__icon(src="img/home-icon-eye.svg")
+					div.home-intro__title
+						div.home-intro__title__copy
+							h2.home-intro__title__copy__increasing Increasing Profit
+							h4.home-intro__title__copy__with with
+							h2.home-intro__title__copy__design Design
+						div.home-intro__title__triangle
+							img.home-intro__title__triangle__icon(src="img/home-icon-triangle.svg")
+					div.home-intro__dollar
+						img.home-intro__dollar__icon(src="img/home-icon-dollar.svg")
+				//- div.divider--green
+
+	
+	div.container.home-intro__information
+		div.home-intro__information__inner
+			div.container--flex
+				div.home-intro__bottom-line
+					h4.home-intro__bottom-line__subhead the bottom line
+					h3.home-intro__bottom-line__explained 
+						|Design exists to help you make good on your businesses goals. And the best way to make design work on behalf of your business goals? Understand human nature, and work with it, instead of trying to change it.	
+				|&nbsp		
+				div.home-intro__contents-home
+					include _components_partials/contentsDark
+				|&nbsp
+
+	div.container.home
+
+		//Case Study
+		include _components_partials/case-study
+
+		//Values & Blog
+		include _components_partials/values-blog
+
+		//Did You Know
+		include _components_partials/did-you-know
+
+		//Contact
+		include _components_partials/contact-module
+
+		//Footer
+		include _components_partials/footer
+
+	//Script
+	include _components_partials/footer-script

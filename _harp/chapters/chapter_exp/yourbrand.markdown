@@ -1,0 +1,5 @@
+##### Turns out that we aren’t guided by thinking too much. Instead, our decisions are inspired by what we are familiar with, especially when buying goods and services.^1^          
+We want to be logical, we research for hours, we test-drive, we rationalize, but we go with “it was easier to grab”, “my kids liked it”, and even “it just felt right” when it’s time to fork over the dough.    
+We automatically substitute the things we don’t recognize in our surroundings with our past experiences that come to us easily and quickly.2    
+Since people roll with their gut,  we will create, or improve your brand, to be the thing that people’s minds automatically insert in place of missing information. Your brand shouldn’t just be beautiful and distinctive. Your brand shouldn’t even be a choice—it should be a habit.        
+And, with each time that people use your brand to fill in the gaps, it becomes even easier for it to be their go-to choice than the last time. That means an easy choice for your customers, and increased revenue for you.

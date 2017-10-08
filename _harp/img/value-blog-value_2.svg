@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="444px" height="373px" viewBox="0 0 444 373" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Number</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home---Large" transform="translate(-177.000000, -2308.000000)">
+            <g id="Values" transform="translate(177.000000, 2165.000000)">
+                <g id="Number">
+                    <rect id="Rectangle" fill="#FFFFFF" x="0" y="143" width="444" height="373"></rect>
+                    <text id="2" stroke="#03FCBA" font-family="GTAmerica-Black, GT America" font-size="500" font-weight="700" letter-spacing="27.9692287" fill="#03FCBA">
+                        <tspan x="68.7653856" y="503">2</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
