@@ -4,5 +4,13 @@ html
 		title #{title}
 		link(rel="stylesheet" href="css/main.css")
 		meta(name="viewport" content="width=device-width, initial-scale=1")
+		script(src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous")
 	body
 		!= yield
+
+		script(src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js")
+		script(src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js")
+		script(src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js")
+		script(src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/jquery.ScrollMagic.js")
+		script(src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.js")
+		script(src="js/app.js")
